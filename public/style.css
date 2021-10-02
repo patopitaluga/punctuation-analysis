@@ -1,0 +1,68 @@
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: block;
+  src: url(https://fonts.gstatic.com/s/opensans/v26/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: block;
+  src: url(https://fonts.gstatic.com/s/opensans/v26/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4gaVI.woff2) format('woff2');
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.selector {
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.selector button {
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  flex: 1 1 auto;
+  margin: 0;
+  height: 50px;
+  min-width: 100px;
+}
+
+.selector div {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  padding: 8px;
+  width: 200px;
+}
+
+.selector p {
+  margin: 0;
+}
+
+.selector h2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 8px;
+}
+
+.analysis {
+  font-size: 16px;
+}
+
+strong {
+  font-weight: 600;
+}

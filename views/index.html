@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+<meta charset="utf-8"/>
+<title>Análisis del estilo de puntuación</title>
+<meta
+  name="viewport"
+  content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css"/>
+
+<style>
+[v-cloak] {
+  display: none !important
+}
+/* Hide Vue while loading */
+</style>
+</head>
+<body>
+<h1>Análisis del estilo de puntuación</h1>
+
+<div id="app">
+  <div class="selector">
+    <button
+      type="button"
+      @click="mtdPrev"
+    >&lt;</button>
+    <div v-cloak>
+      <h2>{{ ((vdCurrentAuthorIndex > -1) ? vdCurrentAuthor.name : 'Autor') }}</h2>
+      <p>{{ ((vdCurrentAuthorIndex > -1) ? vdCurrentAuthor.period : '') }}</p>
+    </div>
+    <button
+      type="button"
+      @click="mtdNext"
+    >&gt;</button>
+  </div>
+
+  <div
+    v-cloak
+    v-if="vdCurrentAuthorIndex > -1"
+  >
+    <p>
+      Texto analizado: <strong>{{ vdCurrentAuthor.text }}</strong>
+    </p>
+    <p>
+      Largo de la muestra: <strong>{{ vdCurrentAuthor.sampleWords }}</strong> palabras,
+      <strong>{{ vdCurrentAuthor.sampleSentences }}</strong> oraciones.
+    </p>
+    <p>
+      Palabras por oración en promedio: <strong>{{ vdCurrentAuthor.wordsPerSentence }}</strong>
+    </p>
+    <p>
+      Oración más larga: <strong>{{ vdCurrentAuthor.longestSentenceLength }}</strong> palabras:
+      <blockquote style="text-align: left;">
+        {{ vdCurrentAuthor.longestSentence }}
+      </blockquote>
+    </p>
+    <p v-if="false">
+      Oración más corta: <strong>{{ vdCurrentAuthor.shortestSentenceLength }}</strong> palabras:
+      <blockquote style="text-align: left;">
+        {{ vdCurrentAuthor.shortestSentence }}
+      </blockquote>
+    </p>
+    <p>
+      Cantidad de puntos: <strong>{{ vdCurrentAuthor.howManyPeriods }}</strong>
+    </p>
+    <p>
+      Cantidad de comas: <strong>{{ vdCurrentAuthor.howManyCommas }}</strong>
+    </p>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.22.0/axios.min.js" integrity="sha512-m2ssMAtdCEYGWXQ8hXVG4Q39uKYtbfaJL5QMTbhl2kc6vYyubrKHhr6aLLXW4ITeXSywQLn1AhsAaqrJl8Acfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./script.js"></script>
+<script>
+  new Vue({
+    el: '#app',
+    data: function() {
+      return {
+        vdCurrentAuthor: {
+          name: '',
+          text: '',
+          wordsPerSentence: 0,
+          longestSentenceLength: '',
+          longestSentence: '',
+        },
+        vdCurrentAuthorIndex: -1,
+        vdAuthors: [],
+      };
+    },
+    mounted: function() {
+      axios.get('./authors.json')
+        .then((_) => {
+          this.vdAuthors = _.data;
+        })
+        .catch((_err) => {
+          console.log(_err);
+        });
+    },
+    methods: {
+      /**
+       * Triggered when the user clicks on the prev button.
+       */
+      mtdPrev: function() {
+        if (this.vdCurrentAuthorIndex === -1) return;
+
+        this.vdCurrentAuthorIndex--;
+        this.vdCurrentAuthor = this.vdAuthors[this.vdCurrentAuthorIndex];
+        // if (this.vdCurrentAuthorIndex === -1) this.vdCurrentAuthorIndex
+      },
+
+      /**
+       * Triggered when the user clicks on the next button.
+       */
+      mtdNext: function() {
+        if (this.vdCurrentAuthorIndex >= this.vdAuthors.length - 1) return;
+        this.vdCurrentAuthorIndex++;
+        this.vdCurrentAuthor = this.vdAuthors[this.vdCurrentAuthorIndex];
+      },
+    },
+  });
+</script>
+</body>
+</html>

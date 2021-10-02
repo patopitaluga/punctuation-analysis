@@ -1,0 +1,23 @@
+{
+  "name": "punctuation-analysis",
+  "version": "1.0.0",
+  "description": "Compare different authors punctuation style.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patopitaluga/punctuation-analysis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patopitaluga/punctuation-analysis/issues"
+  },
+  "homepage": "https://github.com/patopitaluga/punctuation-analysis#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

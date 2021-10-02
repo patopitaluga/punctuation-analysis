@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Bram Stoker",
+    "period": "(1847 - 1912)",
+    "text": "Fragmento de Drácula",
+    "sampleWords": 10015,
+    "sampleSentences": 538,
+    "wordsPerSentence": 18.61,
+    "longestSentenceLength": 78,
+    "longestSentence": "Se levantaban a la izquierda y a la derecha de nosotros, con el sol de la tarde cayendo plenamente sobre ellas y haciendo relucir los gloriosos colores de esta bella cordillera, azul profundo y morado en las sombras de los picos, verde y marrón donde la hierba y las piedras se mezclaban, y una infinita perspectiva de rocas dentadas y puntiagudos riscos, hasta que ellos mismos se perdían en la distancia, donde las cumbres nevadas se alzaban grandiosamente.",
+    "howManyPeriods": 385,
+    "howManyCommas": 1370
+  },
+  {
+    "name": "Charles Bukowski",
+    "period": "(1920 - 1994)",
+    "text": "Fragmento de Post Office",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Charles Dickens",
+    "period": "(1812-1870)",
+    "text": "Fragmento de Grandes esperanzas",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Edgar Allan Poe",
+    "period": "(1809 - 1849)",
+    "text": "Fragmento de El Corazón Delator",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Emile Zola",
+    "period": "(1840 - 1902)",
+    "text": "Fragmento de Germinal",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Fiódor Dostoyevski",
+    "period": "(1821 - 1881)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Franz Kafka",
+    "period": "(1883 - 1924)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Goethe",
+    "period": "(1749 - 1832)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "H.P. Lovecraft",
+    "period": "(1809 - 1849)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Herman Melville",
+    "period": "(1819 - 1891)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Isak Dinesen",
+    "period": "(1885 - 1962)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "James Joyce",
+    "period": "(1882 - 1941)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Jane Austen",
+    "period": "(1775 - 1817)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Julio Verne",
+    "period": "(1828 - 1905)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "León Tolstói",
+    "period": "(1828 - 1910)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Marcel Proust",
+    "period": "(1871 -1922)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Marguerite Duras",
+    "period": "(1914 - 1996)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Marqués de Sade",
+    "period": "(1740 - 1814)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Mary Shelley",
+    "period": "(1797 - 1851)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Miguel de Cervantes",
+    "period": "(1547 - 1616)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Oscar Wilde",
+    "period": "(1854 - 1900)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Truman Capote",
+    "period": "(1924 - 1984)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Victor Hugo",
+    "period": "(1802 - 1885)",
+    "wordsPerSentence": 10
+  },
+  {
+    "name": "Vladimir Nabokov",
+    "period": "(1899-1977)",
+    "wordsPerSentence": 10
+  }
+]
