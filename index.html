@@ -2,14 +2,72 @@
 <html lang="es-es">
 <head>
 <meta charset="utf-8"/>
-<title>Punctuation analysis</title>
+<title>Análisis de estilo</title>
+<meta
+  name="viewport"
+  content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css"/>
 
-<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover"/>
-
-<link rel="stylesheet" href="/dist/style.css"/>
+<style>
+[v-cloak] {
+  display: none !important
+}
+/* Hide Vue while loading */
+</style>
 </head>
 <body>
-  <h1>Punctuation analysis</h1>
-<script src="/dist/script.js"></script>
+<h1>Análisis de estilo</h1>
+
+<div id="app">
+  <div style="padding: 30px;text-align: right;padding-bottom: 0;">
+    <button
+      @click="vdCompareOtherAuthor = !vdCompareOtherAuthor"
+    >Comparar con otro autor</button>
+  </div>
+  <div style="padding: 30px;padding-top: 10px;text-align: right;">
+    <button
+      @click="vdCompareSelf = !vdCompareSelf"
+    >Comparar con texto propio</button>
+  </div>
+  <div style="display: flex;align-items: center;justify-content: center;">
+    <analyze :vp-authors="vdAuthors">
+    </analyze>
+    <analyze
+      v-if="vdCompareOtherAuthor"
+      :vp-authors="vdAuthors"
+    >
+    </analyze>
+    <div
+      v-if="vdCompareSelf"
+      style="margin: 0 auto auto; width: 50%; flex: 0 0 auto;"
+    >
+      <textarea
+        v-if="vdOwnText === ''"
+        v-model="vdOwnTextInTextArea"
+        style="width: 100%;height: 400px;overflow: auto;"
+      ></textarea>
+      <button
+        v-if="vdOwnText === ''"
+        @click="vdOwnText = vdOwnTextInTextArea;vdCompareSelf= false;"
+      >Comparar con texto propio</button>
+    </div>
+    <analyze
+      v-if="vdOwnText"
+      :vp-authors="[vdOwnTextAnalysis]"
+    >
+    </analyze>
+  </div>
+</div>
+
+<script src="https://unpkg.com/vue@next"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.22.0/axios.min.js" integrity="sha512-m2ssMAtdCEYGWXQ8hXVG4Q39uKYtbfaJL5QMTbhl2kc6vYyubrKHhr6aLLXW4ITeXSywQLn1AhsAaqrJl8Acfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script
+  type="module"
+  src="script.js"
+></script>
 </body>
 </html>
