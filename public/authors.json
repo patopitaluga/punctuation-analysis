@@ -1,145 +1,887 @@
 [
   {
-    "name": "Bram Stoker",
-    "period": "(1847 - 1912)",
-    "text": "Fragmento de Drácula",
-    "sampleWords": 10015,
-    "sampleSentences": 538,
-    "wordsPerSentence": 18.61,
-    "longestSentenceLength": 78,
-    "longestSentence": "Se levantaban a la izquierda y a la derecha de nosotros, con el sol de la tarde cayendo plenamente sobre ellas y haciendo relucir los gloriosos colores de esta bella cordillera, azul profundo y morado en las sombras de los picos, verde y marrón donde la hierba y las piedras se mezclaban, y una infinita perspectiva de rocas dentadas y puntiagudos riscos, hasta que ellos mismos se perdían en la distancia, donde las cumbres nevadas se alzaban grandiosamente.",
-    "howManyPeriods": 385,
-    "howManyCommas": 1370
+    "name": "Pedro Mairal",
+    "period": "(1970 - )",
+    "text": "Fragmento de Los Héroes",
+    "sampleWords": 2019,
+    "sampleSentences": 174,
+    "wordsPerSentence": "11.60",
+    "longestSentenceLength": 60,
+    "howManyPeriods": 128,
+    "howManyCommas": 312,
+    "shortSentences": [
+      "Eso fue un martes.",
+      "–Sí –dijo Tomás, riéndose–.",
+      "Nos debe querer condecorar.",
+      "Yo dudé un momento.",
+      "–Sí, está bien."
+    ],
+    "sentencesWith": [
+      {
+        "numberOfWords": 3,
+        "numberOfSentences": 31
+      },
+      {
+        "numberOfWords": 4,
+        "numberOfSentences": 31
+      },
+      {
+        "numberOfWords": 5,
+        "numberOfSentences": 31
+      },
+      {
+        "numberOfWords": 6,
+        "numberOfSentences": 31
+      },
+      {
+        "numberOfWords": 7,
+        "numberOfSentences": 36
+      },
+      {
+        "numberOfWords": 8,
+        "numberOfSentences": 23
+      },
+      {
+        "numberOfWords": 9,
+        "numberOfSentences": 26
+      },
+      {
+        "numberOfWords": 10,
+        "numberOfSentences": 19
+      },
+      {
+        "numberOfWords": 11,
+        "numberOfSentences": 24
+      },
+      {
+        "numberOfWords": 12,
+        "numberOfSentences": 24
+      },
+      {
+        "numberOfWords": 13,
+        "numberOfSentences": 21
+      },
+      {
+        "numberOfWords": 14,
+        "numberOfSentences": 16
+      },
+      {
+        "numberOfWords": 16,
+        "numberOfSentences": 14
+      },
+      {
+        "numberOfWords": 17,
+        "numberOfSentences": 17
+      },
+      {
+        "numberOfWords": 18,
+        "numberOfSentences": 11
+      },
+      {
+        "numberOfWords": 19,
+        "numberOfSentences": 13
+      },
+      {
+        "numberOfWords": 21,
+        "numberOfSentences": 13
+      },
+      {
+        "numberOfWords": 22,
+        "numberOfSentences": 4
+      },
+      {
+        "numberOfWords": 23,
+        "numberOfSentences": 6
+      },
+      {
+        "numberOfWords": 24,
+        "numberOfSentences": 5
+      },
+      {
+        "numberOfWords": 26,
+        "numberOfSentences": 3
+      },
+      {
+        "numberOfWords": 27,
+        "numberOfSentences": 3
+      },
+      {
+        "numberOfWords": 28,
+        "numberOfSentences": 4
+      },
+      {
+        "numberOfWords": 30,
+        "numberOfSentences": 3
+      },
+      {
+        "numberOfWords": 31,
+        "numberOfSentences": 2
+      },
+      {
+        "numberOfWords": 32,
+        "numberOfSentences": 3
+      },
+      {
+        "numberOfWords": 33,
+        "numberOfSentences": 3
+      },
+      {
+        "numberOfWords": 34,
+        "numberOfSentences": 2
+      },
+      {
+        "numberOfWords": 37,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 39,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 40,
+        "numberOfSentences": 2
+      },
+      {
+        "numberOfWords": 42,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 44,
+        "numberOfSentences": 3
+      },
+      {
+        "numberOfWords": 45,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 48,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 52,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 55,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 56,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 60,
+        "numberOfSentences": 2
+      }
+    ],
+    "art": ".,,:.,;,;..,,.,.,..,.,,.,,“”..\n;.:“,”..,,.:––.–,–.–.,....,,,.\n.,,,,.,..,.–¿?–.––,–..–¿?–.–,.\n..–¿?–,....–¿,?–.–,.–¿?–,.–,.–\n.,,,.,,.,,....:,.:,.:,.:,.:,..\n..,,.,,,,.,,,,,,....,,,,,,,,.,\n,,,,,,,..,,.,.....,,,,.,“”....\n,,..,,.–¿?–.–¿?–.¿?–..–.¿?––..\n,,,,,..,..,.,,.,...,....“”..–¿\n?–.–.–¿?––.–...–,.–¿?–.....¿?.\n–,.–––.¿?–,.–..,.–,¿?–.–.¿?–,,\n.,,,,.,.",
+    "longestSentence": "Lo veía todo sucediendo, no en un espacio reducido como en un microscopio, sino a mi alrededor, en un lugar enorme, oscuro, a veces en el lugar mismo del accidente, de noche entre los árboles, como si el interior del cuerpo fuese algo gigante, un lugar geográfico donde las células se desplazan como si fueran grandes estrellas rojas y mojadas."
   },
   {
-    "name": "Charles Bukowski",
-    "period": "(1920 - 1994)",
-    "text": "Fragmento de Post Office",
-    "sampleWords": 10019,
-    "sampleSentences": 1320,
-    "wordsPerSentence": 7.59,
-    "longestSentenceLength": 58,
-    "longestSentence": "¡Tirado! Sólo te daban una manzana o dos y si te las arreglabas para terminar, el cartero regular te asignaba otra manzana para repartir el correo, o también podías volver y el jefe te mandaba a otra parte, pero lo mejor que podías hacer era tomarte tu tiempo y meter relajadamente las tarjetas de Navidad en los buzones.",
-    "howManyPeriods": 838,
-    "howManyCommas": 1081
+    "name": "Claire Keegan",
+    "period": "(1968 - )",
+    "text": "Fragmento de Sopa de pasaportes",
+    "sampleWords": 2005,
+    "sampleSentences": 208,
+    "wordsPerSentence": "9.64",
+    "longestSentenceLength": 49,
+    "howManyPeriods": 159,
+    "howManyCommas": 164,
+    "shortSentences": [
+      "SOPA DE PASAPORTE",
+      "Es una noche normal.",
+      "Elizabeth Corso, nueve años.",
+      "¡Vino el Ratón Pérez!",
+      "Frank perdió el apetito."
+    ],
+    "sentencesWith": [
+      {
+        "numberOfWords": 3,
+        "numberOfSentences": 18
+      },
+      {
+        "numberOfWords": 4,
+        "numberOfSentences": 23
+      },
+      {
+        "numberOfWords": 5,
+        "numberOfSentences": 17
+      },
+      {
+        "numberOfWords": 6,
+        "numberOfSentences": 13
+      },
+      {
+        "numberOfWords": 7,
+        "numberOfSentences": 12
+      },
+      {
+        "numberOfWords": 8,
+        "numberOfSentences": 10
+      },
+      {
+        "numberOfWords": 9,
+        "numberOfSentences": 6
+      },
+      {
+        "numberOfWords": 10,
+        "numberOfSentences": 10
+      },
+      {
+        "numberOfWords": 11,
+        "numberOfSentences": 9
+      },
+      {
+        "numberOfWords": 12,
+        "numberOfSentences": 10
+      },
+      {
+        "numberOfWords": 13,
+        "numberOfSentences": 5
+      },
+      {
+        "numberOfWords": 14,
+        "numberOfSentences": 7
+      },
+      {
+        "numberOfWords": 15,
+        "numberOfSentences": 7
+      },
+      {
+        "numberOfWords": 16,
+        "numberOfSentences": 8
+      },
+      {
+        "numberOfWords": 17,
+        "numberOfSentences": 2
+      },
+      {
+        "numberOfWords": 18,
+        "numberOfSentences": 2
+      },
+      {
+        "numberOfWords": 19,
+        "numberOfSentences": 2
+      },
+      {
+        "numberOfWords": 20,
+        "numberOfSentences": 9
+      },
+      {
+        "numberOfWords": 21,
+        "numberOfSentences": 4
+      },
+      {
+        "numberOfWords": 22,
+        "numberOfSentences": 4
+      },
+      {
+        "numberOfWords": 23,
+        "numberOfSentences": 3
+      },
+      {
+        "numberOfWords": 24,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 25,
+        "numberOfSentences": 2
+      },
+      {
+        "numberOfWords": 26,
+        "numberOfSentences": 2
+      },
+      {
+        "numberOfWords": 27,
+        "numberOfSentences": 2
+      },
+      {
+        "numberOfWords": 28,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 29,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 30,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 31,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 37,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 38,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 49,
+        "numberOfSentences": 1
+      }
+    ],
+    "art": "..,.,..,,,...,......,,.,.,,..,\n..,.,,.—¡!¡!——.¡!.,.....,,....\n,,,..,,..——.,.,.,,...,;.,,..,.\n,.,,.,,,:«.»......,;,.;,.:.;,.\n,..;..,.,,..——..,,,:«¡!¡!».,..\n,.,.,...,.,.,..,,,.,..,...,.—¿\n?—.,.,.,..,,..,:—¿?—¿,.,?—....\n.,,..,,,...,,,,.,,,,,.,.,.,.,.\n:,,,.,...,,.,——,.,,,..,,...—.—\n——..,,,….,,,.,..,,,..,.,.,,..,\n,.—¿?———.¿?.—¿?—¿?——..¿?———.…—\n——.,.¿?,.,,.,.,.,.....,......",
+    "longestSentence": "Pasa por los canales: un programa de entrevistas con un tipo que estuvo muerto por un rato en una mesa de operaciones, un documental sobre la Primera Guerra Mundial, una mujer que habla sobre cómo entrenar tus perros para que se sienten, traigan algo y te sigan de cerca."
   },
   {
-    "name": "Charles Dickens",
-    "period": "(1812-1870)",
-    "text": "Fragmento de Grandes esperanzas",
-    "sampleWords": 10020,
-    "sampleSentences": 642,
-    "wordsPerSentence": 15.60,
-    "longestSentenceLength": 119,
-    "longestSentence": "Fue entonces cuando adquirí la certidumbre de que aquel erial cubierto de ortigas era el cementerio; de que Philip Pirrip, de esta parroquia, y también Georgiana, mujer del arriba dicho, estaban muertos y enterrados; de que Alexander, Bartholomew, Abraham, Tobias y Roger, niños hijos de los antedichos, estaban también muertos y enterrados; de que la llanura yerma y sombría del otro lado del cementerio, entrecortada por diques y zanjas y barreras, y donde se veía algún ganado paciendo, eran los marjales; de que el cubil salvaje y lejano de donde salía furioso el viento era el mar; y de que el pequeño montón de escalofríos que se iba asustando de todo ello y se echaba a llorar, era Pip.",
-    "howManyPeriods": 417,
-    "howManyCommas": 1543
-  },
-  {
-    "name": "Edgar Allan Poe",
-    "period": "(1809 - 1849)",
-    "text": "Fragmento de El Corazón Delator",
-    "wordsPerSentence": 0
-  },
-  {
-    "name": "Emile Zola",
-    "period": "(1840 - 1902)",
-    "text": "Fragmento de Germinal",
-    "wordsPerSentence": 0
-  },
-  {
-    "name": "Fiódor Dostoyevski",
-    "period": "(1821 - 1881)",
-    "wordsPerSentence": 0
+    "name": "Ernest Hemingway",
+    "period": "(1899 - 1961)",
+    "text": "Fragmento de Colinas como elefantes blancos",
+    "sampleWords": 1387,
+    "sampleSentences": 273,
+    "wordsPerSentence": "5.08",
+    "longestSentenceLength": 35,
+    "howManyPeriods": 160,
+    "howManyCommas": 184,
+    "shortSentences": [
+      "-Parecen elefantes blancos -dijo.",
+      "-No, claro que no.",
+      "Bien podría haberlo visto.",
+      "-Tiene algo pintado -dijo-.",
+      "-Anís del Toro."
+    ],
+    "sentencesWith": [
+      {
+        "numberOfWords": 3,
+        "numberOfSentences": 21
+      },
+      {
+        "numberOfWords": 4,
+        "numberOfSentences": 21
+      },
+      {
+        "numberOfWords": 5,
+        "numberOfSentences": 23
+      },
+      {
+        "numberOfWords": 6,
+        "numberOfSentences": 18
+      },
+      {
+        "numberOfWords": 7,
+        "numberOfSentences": 18
+      },
+      {
+        "numberOfWords": 8,
+        "numberOfSentences": 5
+      },
+      {
+        "numberOfWords": 9,
+        "numberOfSentences": 12
+      },
+      {
+        "numberOfWords": 10,
+        "numberOfSentences": 5
+      },
+      {
+        "numberOfWords": 11,
+        "numberOfSentences": 7
+      },
+      {
+        "numberOfWords": 12,
+        "numberOfSentences": 12
+      },
+      {
+        "numberOfWords": 13,
+        "numberOfSentences": 3
+      },
+      {
+        "numberOfWords": 14,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 15,
+        "numberOfSentences": 4
+      },
+      {
+        "numberOfWords": 16,
+        "numberOfSentences": 2
+      },
+      {
+        "numberOfWords": 17,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 18,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 19,
+        "numberOfSentences": 3
+      },
+      {
+        "numberOfWords": 20,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 22,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 28,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 35,
+        "numberOfSentences": 1
+      }
+    ],
+    "art": ",.,.,.,...-¿?-..--.-.--.-¿?-.-\n......--.--.-,.---...---.¿?-..\n-¿?--..-.-.-¿?-¿?---.¿?-.-¿?-.\n-,.--.-.---..,.-,.---...-,.-..\n.¿?-.-.,¿?¿?-..---...-¿?-..--.\n--.-,--...-,....-..-¿?-..-¿?-.\n.,.-.-...---..---,...-¿?-..-,¿\n?-..-,,¿?-.,..-,¿?-,.-..-¿?-.-\n,.-,...-..,,.,,..---..-¿?-.-.-\n,.-.-,.-.-,..-.-,.,.-.-.---..-\n--..-…---..¿?-.…--.-¿?.---..-¿\n?.-....-,.-,.-¿?-.-¿?..---,.--\n..--.-¿?-.-..--..-..,,..,.....\n-¿?-.---...",
+    "longestSentence": "Junto a la pared de la estación caía la sombra tibia del edificio y una cortina de cuentas de bambú colgaba en el vano de la puerta del bar, para que no entraran las moscas."
   },
   {
     "name": "Franz Kafka",
     "period": "(1883 - 1924)",
-    "wordsPerSentence": 0
+    "text": "Fragmento de La Metamorfosis",
+    "sampleWords": 2005,
+    "sampleSentences": 100,
+    "wordsPerSentence": "20.05",
+    "longestSentenceLength": 100,
+    "howManyPeriods": 69,
+    "howManyCommas": 278,
+    "shortSentences": [
+      "No era un sueño.",
+      "«¡Dios mío! —pensó—.",
+      "«¡Dios del cielo!», pensó.",
+      "—¡Gregorio, Gregorio! —gritó—.",
+      "Pero después se dijo:"
+    ],
+    "sentencesWith": [
+      {
+        "numberOfWords": 3,
+        "numberOfSentences": 8
+      },
+      {
+        "numberOfWords": 4,
+        "numberOfSentences": 10
+      },
+      {
+        "numberOfWords": 5,
+        "numberOfSentences": 10
+      },
+      {
+        "numberOfWords": 6,
+        "numberOfSentences": 8
+      },
+      {
+        "numberOfWords": 7,
+        "numberOfSentences": 15
+      },
+      {
+        "numberOfWords": 8,
+        "numberOfSentences": 12
+      },
+      {
+        "numberOfWords": 9,
+        "numberOfSentences": 16
+      },
+      {
+        "numberOfWords": 10,
+        "numberOfSentences": 16
+      },
+      {
+        "numberOfWords": 11,
+        "numberOfSentences": 16
+      },
+      {
+        "numberOfWords": 12,
+        "numberOfSentences": 15
+      },
+      {
+        "numberOfWords": 13,
+        "numberOfSentences": 12
+      },
+      {
+        "numberOfWords": 14,
+        "numberOfSentences": 13
+      },
+      {
+        "numberOfWords": 16,
+        "numberOfSentences": 16
+      },
+      {
+        "numberOfWords": 17,
+        "numberOfSentences": 12
+      },
+      {
+        "numberOfWords": 18,
+        "numberOfSentences": 21
+      },
+      {
+        "numberOfWords": 19,
+        "numberOfSentences": 18
+      },
+      {
+        "numberOfWords": 21,
+        "numberOfSentences": 6
+      },
+      {
+        "numberOfWords": 22,
+        "numberOfSentences": 22
+      },
+      {
+        "numberOfWords": 23,
+        "numberOfSentences": 13
+      },
+      {
+        "numberOfWords": 24,
+        "numberOfSentences": 12
+      },
+      {
+        "numberOfWords": 25,
+        "numberOfSentences": 20
+      },
+      {
+        "numberOfWords": 26,
+        "numberOfSentences": 14
+      },
+      {
+        "numberOfWords": 27,
+        "numberOfSentences": 24
+      },
+      {
+        "numberOfWords": 30,
+        "numberOfSentences": 12
+      },
+      {
+        "numberOfWords": 31,
+        "numberOfSentences": 13
+      },
+      {
+        "numberOfWords": 32,
+        "numberOfSentences": 13
+      },
+      {
+        "numberOfWords": 33,
+        "numberOfSentences": 14
+      },
+      {
+        "numberOfWords": 35,
+        "numberOfSentences": 12
+      },
+      {
+        "numberOfWords": 36,
+        "numberOfSentences": 9
+      },
+      {
+        "numberOfWords": 39,
+        "numberOfSentences": 9
+      },
+      {
+        "numberOfWords": 40,
+        "numberOfSentences": 5
+      },
+      {
+        "numberOfWords": 41,
+        "numberOfSentences": 13
+      },
+      {
+        "numberOfWords": 45,
+        "numberOfSentences": 6
+      },
+      {
+        "numberOfWords": 46,
+        "numberOfSentences": 9
+      },
+      {
+        "numberOfWords": 52,
+        "numberOfSentences": 3
+      },
+      {
+        "numberOfWords": 53,
+        "numberOfSentences": 4
+      },
+      {
+        "numberOfWords": 62,
+        "numberOfSentences": 6
+      },
+      {
+        "numberOfWords": 69,
+        "numberOfSentences": 4
+      },
+      {
+        "numberOfWords": 74,
+        "numberOfSentences": 3
+      },
+      {
+        "numberOfWords": 77,
+        "numberOfSentences": 4
+      },
+      {
+        "numberOfWords": 100,
+        "numberOfSentences": 1
+      }
+    ],
+    "art": ",.,,,,,,.,,.«¿?»,..,,,.,——,.,,\n,.,——.«¿——?».,,.,.,,.«¡!——.¡!.\n,,,,,,.¡!».,;,,,,..«——...,,,.,\n.,,.,,.¡!,,,,,.,;——.;,,»,.«¡!»\n,.,,.«¿?».,.,…¿?,,.¿?,,,;,,.,.\n¿?,.,,,.¿?,,.,——,.——()—,.¿?¡!,\n,.,,,,,,,,.,:—,,,.,.,,,,,,.—¡,\n!——.¿?——.¡,!.—,¿?,¿?:——,,.,:—,\n,—,,.,,,,,,,,.,,,.,.,,,.,,,,,.\n,,,,,.«»,.,,,,;,,,,,,.,.,,.,,,\n,,,,.,,,,,,,.,,.,,,,.«——,»,,,,\n.:«,.,,».,,,,.",
+    "longestSentence": "Quería salir de la cama en primer lugar con la parte inferior de su cuerpo, pero esta parte inferior que, por cierto, no había visto todavía y que no podía imaginar exactamente, demostró ser difícil de mover; el movimiento se producía muy despacio, y cuando, finalmente, casi furioso, se lanzó hacia delante con toda su fuerza sin pensar en las consecuencias, había calculado mal la dirección, se golpeó fuertemente con la pata trasera de la cama y el dolor punzante que sintió le enseñó que precisamente la parte inferior de su cuerpo era quizá en estos momentos la más sensible."
   },
   {
-    "name": "Goethe",
-    "period": "(1749 - 1832)",
-    "wordsPerSentence": 0
+    "name": "Samanta Schweblin",
+    "period": "(1978 - )",
+    "text": "Fragmento de Un hombre sin suerte",
+    "sampleWords": 2007,
+    "sampleSentences": 226,
+    "wordsPerSentence": "8.88",
+    "longestSentenceLength": 47,
+    "howManyPeriods": 156,
+    "howManyCommas": 291,
+    "shortSentences": [
+      "Abi tenía tres años.",
+      "–Sacate la bombacha.",
+      "–¡Sacate la puta bombacha!",
+      "–Vamos, vamos –dijo papá.",
+      "Cerró el coche."
+    ],
+    "sentencesWith": [
+      {
+        "numberOfWords": 3,
+        "numberOfSentences": 18
+      },
+      {
+        "numberOfWords": 4,
+        "numberOfSentences": 16
+      },
+      {
+        "numberOfWords": 5,
+        "numberOfSentences": 12
+      },
+      {
+        "numberOfWords": 6,
+        "numberOfSentences": 17
+      },
+      {
+        "numberOfWords": 7,
+        "numberOfSentences": 7
+      },
+      {
+        "numberOfWords": 8,
+        "numberOfSentences": 20
+      },
+      {
+        "numberOfWords": 9,
+        "numberOfSentences": 9
+      },
+      {
+        "numberOfWords": 10,
+        "numberOfSentences": 11
+      },
+      {
+        "numberOfWords": 11,
+        "numberOfSentences": 10
+      },
+      {
+        "numberOfWords": 12,
+        "numberOfSentences": 15
+      },
+      {
+        "numberOfWords": 13,
+        "numberOfSentences": 4
+      },
+      {
+        "numberOfWords": 15,
+        "numberOfSentences": 3
+      },
+      {
+        "numberOfWords": 16,
+        "numberOfSentences": 7
+      },
+      {
+        "numberOfWords": 17,
+        "numberOfSentences": 6
+      },
+      {
+        "numberOfWords": 18,
+        "numberOfSentences": 6
+      },
+      {
+        "numberOfWords": 19,
+        "numberOfSentences": 7
+      },
+      {
+        "numberOfWords": 20,
+        "numberOfSentences": 6
+      },
+      {
+        "numberOfWords": 21,
+        "numberOfSentences": 4
+      },
+      {
+        "numberOfWords": 22,
+        "numberOfSentences": 2
+      },
+      {
+        "numberOfWords": 23,
+        "numberOfSentences": 4
+      },
+      {
+        "numberOfWords": 24,
+        "numberOfSentences": 2
+      },
+      {
+        "numberOfWords": 25,
+        "numberOfSentences": 3
+      },
+      {
+        "numberOfWords": 26,
+        "numberOfSentences": 5
+      },
+      {
+        "numberOfWords": 27,
+        "numberOfSentences": 3
+      },
+      {
+        "numberOfWords": 28,
+        "numberOfSentences": 2
+      },
+      {
+        "numberOfWords": 30,
+        "numberOfSentences": 4
+      },
+      {
+        "numberOfWords": 35,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 36,
+        "numberOfSentences": 2
+      },
+      {
+        "numberOfWords": 39,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 42,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 45,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 47,
+        "numberOfSentences": 1
+      }
+    ],
+    "art": ",––,..,,..–--––.--–.,.,.,,..,.\n,,,.,,,,.,..,,....¡!¡!,,,.,...\n:–....:–¡!..,.,.,.,,...:,,.–,–\n.....,.––,...,.,,,..,,,...,.–¿\n?–.,,.––.–¿?.,,.:–¿?..,..–––,.\n.–,–...–––,.–..––,..“”.,.––.“”\n,“¿?”..,.–...––,.,¿?.,,..:–..,\n..,,,,.––..–..––,,...––.–¿?––.\n.,...––,–,–“,”,:,,...,,..,,.––\n–,.–“”–,,.–,–.–.–...,.,,.“”,.,\n..,.,,,..––..,,..–––,–,–..¿?..\n,.–––..:–.–¿?–...–..––.–“”–––.\n...–...,,,,.––..,....,,.",
+    "longestSentence": "A veces la enfermera entraba o salía del consultorio y se escuchaba a mis padres discutir y, una vez que me estiré un poquito, llegué a ver a Abi moverse inquieta en una de las camillas, y supe que al menos ese día no iba a morirse."
   },
   {
-    "name": "H.P. Lovecraft",
-    "period": "(1809 - 1849)",
-    "wordsPerSentence": 0
-  },
-  {
-    "name": "Herman Melville",
-    "period": "(1819 - 1891)",
-    "wordsPerSentence": 0
-  },
-  {
-    "name": "Isak Dinesen",
-    "period": "(1885 - 1962)",
-    "wordsPerSentence": 0
-  },
-  {
-    "name": "James Joyce",
-    "period": "(1882 - 1941)",
-    "wordsPerSentence": 0
-  },
-  {
-    "name": "Jane Austen",
-    "period": "(1775 - 1817)",
-    "wordsPerSentence": 0
-  },
-  {
-    "name": "Julio Verne",
-    "period": "(1828 - 1905)",
-    "wordsPerSentence": 0
-  },
-  {
-    "name": "León Tolstói",
-    "period": "(1828 - 1910)",
-    "wordsPerSentence": 0
-  },
-  {
-    "name": "Marcel Proust",
-    "period": "(1871 -1922)",
-    "wordsPerSentence": 0
-  },
-  {
-    "name": "Marguerite Duras",
-    "period": "(1914 - 1996)",
-    "wordsPerSentence": 0
-  },
-  {
-    "name": "Marqués de Sade",
-    "period": "(1740 - 1814)",
-    "wordsPerSentence": 0
-  },
-  {
-    "name": "Mary Shelley",
-    "period": "(1797 - 1851)",
-    "wordsPerSentence": 0
-  },
-  {
-    "name": "Miguel de Cervantes",
-    "period": "(1547 - 1616)",
-    "wordsPerSentence": 0
-  },
-  {
-    "name": "Oscar Wilde",
-    "period": "(1854 - 1900)",
-    "wordsPerSentence": 0
-  },
-  {
-    "name": "Truman Capote",
-    "period": "(1924 - 1984)",
-    "wordsPerSentence": 0
-  },
-  {
-    "name": "Victor Hugo",
-    "period": "(1802 - 1885)",
-    "wordsPerSentence": 0
-  },
-  {
-    "name": "Vladimir Nabokov",
-    "period": "(1899-1977)",
-    "wordsPerSentence": 0
+    "name": "J. D. Salinger",
+    "period": "(1919 - 2010)",
+    "text": "Fragmento de Un hombre sin suerte",
+    "sampleWords": 2004,
+    "sampleSentences": 448,
+    "wordsPerSentence": "4.47",
+    "longestSentenceLength": 41,
+    "howManyPeriods": 338,
+    "howManyCommas": 234,
+    "shortSentences": [
+      "-¿Muriel? ¿Eres tú?",
+      "¿Cómo estás? -dijo.",
+      "Los teléfonos acá han.",
+      "-¿Estás bien, Muriel?",
+      "Una vez justo después."
+    ],
+    "sentencesWith": [
+      {
+        "numberOfWords": 3,
+        "numberOfSentences": 54
+      },
+      {
+        "numberOfWords": 4,
+        "numberOfSentences": 60
+      },
+      {
+        "numberOfWords": 5,
+        "numberOfSentences": 56
+      },
+      {
+        "numberOfWords": 6,
+        "numberOfSentences": 45
+      },
+      {
+        "numberOfWords": 7,
+        "numberOfSentences": 28
+      },
+      {
+        "numberOfWords": 8,
+        "numberOfSentences": 21
+      },
+      {
+        "numberOfWords": 9,
+        "numberOfSentences": 28
+      },
+      {
+        "numberOfWords": 10,
+        "numberOfSentences": 19
+      },
+      {
+        "numberOfWords": 11,
+        "numberOfSentences": 18
+      },
+      {
+        "numberOfWords": 12,
+        "numberOfSentences": 15
+      },
+      {
+        "numberOfWords": 13,
+        "numberOfSentences": 11
+      },
+      {
+        "numberOfWords": 14,
+        "numberOfSentences": 13
+      },
+      {
+        "numberOfWords": 15,
+        "numberOfSentences": 10
+      },
+      {
+        "numberOfWords": 16,
+        "numberOfSentences": 5
+      },
+      {
+        "numberOfWords": 17,
+        "numberOfSentences": 5
+      },
+      {
+        "numberOfWords": 18,
+        "numberOfSentences": 5
+      },
+      {
+        "numberOfWords": 19,
+        "numberOfSentences": 9
+      },
+      {
+        "numberOfWords": 20,
+        "numberOfSentences": 5
+      },
+      {
+        "numberOfWords": 22,
+        "numberOfSentences": 4
+      },
+      {
+        "numberOfWords": 24,
+        "numberOfSentences": 6
+      },
+      {
+        "numberOfWords": 26,
+        "numberOfSentences": 4
+      },
+      {
+        "numberOfWords": 35,
+        "numberOfSentences": 1
+      },
+      {
+        "numberOfWords": 41,
+        "numberOfSentences": 1
+      }
+    ],
+    "art": ",..........,,,...,,.,,,.,,.--.\n--,,,:.-,-.--,.:-¿?¿?.-,.¿?-.-\n.¿?¿?-....-¿,?.-.....-¿?...-,,\n.--.....-.,...¿,?.-.,.-¿?-...,\n.-¿?---....-¿?,...---,..,.-¿?-\n,.,.,,,.....,¿?-.,...-,.,...-,\n.¿?,...--.-¿...?-..-¿?-...¡!-,\n....-,.-,.-,...,....---,.¿?...\n.¿?...-.-¿?-.-.,.....¿?¿?-.,..\n-¡!-,.-,-.........-......-,-.,\n-.¿?-,.-...,.-.-.-¿?-.-.,.....\n......-¿...?-.-,..,...,,..--.-\n¿?¿?-...-.-.-,,........-,....-\n.........-,.,--.,..-¿?¿?...-..\n-¡!¿?-,,.-¡!-.-,¿?-.........-.\n-¿?¿?-,..-,¿?-¡,!.,,.,....-¿?-\n,.,--.,...¿?,...-¿?-........-¿\n?.-¡!......,.,..-,...¿...?-,.-\n-...-¿...,,...?¿...?-,--.,....\n.,.-.¿?-..-¿?-..-.-¿?-..--....\n-,.¿?-..-,...¿?-,--..-¿?-,.-..\n...-,-,-.,...-...,...---...-¿?\n-.-¿?¿?¿?---..-,.-,.,..-¿?¿?-.\n.-,.¿?--,-..-¡!¿?-,.,-,-.,.-..\n-,-,.",
+    "longestSentence": "En el hotel había noventa y siete publicitarios neoyorquinos, y monopolizaban las líneas telefónicas de larga distancia de tal manera que la chica del 507 tuvo que esperar su llamada desde el mediodía hasta las dos y media de la tarde."
   }
 ]
+

@@ -2,7 +2,7 @@
 <html lang="es-es">
 <head>
 <meta charset="utf-8"/>
-<title>Análisis del estilo de puntuación</title>
+<title>Análisis de estilo</title>
 <meta
   name="viewport"
   content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover"
@@ -20,18 +20,44 @@
 </style>
 </head>
 <body>
-<h1>Análisis del estilo de puntuación</h1>
+<h1>Análisis de estilo</h1>
 
 <div id="app">
-  <button
-    @click="vdComparing = !vdComparing"
-  >Comparar con otro autor</button>
+  <div style="padding: 30px;text-align: right;padding-bottom: 0;">
+    <button
+      @click="vdCompareOtherAuthor = !vdCompareOtherAuthor"
+    >Comparar con otro autor</button>
+  </div>
+  <div style="padding: 30px;padding-top: 10px;text-align: right;">
+    <button
+      @click="vdCompareSelf = !vdCompareSelf"
+    >Comparar con texto propio</button>
+  </div>
   <div style="display: flex;align-items: center;justify-content: center;">
     <analyze :vp-authors="vdAuthors">
     </analyze>
     <analyze
-      v-if="vdComparing"
+      v-if="vdCompareOtherAuthor"
       :vp-authors="vdAuthors"
+    >
+    </analyze>
+    <div
+      v-if="vdCompareSelf"
+      style="margin: 0 auto auto; width: 50%; flex: 0 0 auto;"
+    >
+      <textarea
+        v-if="vdOwnText === ''"
+        v-model="vdOwnTextInTextArea"
+        style="width: 100%;height: 400px;overflow: auto;"
+      ></textarea>
+      <button
+        v-if="vdOwnText === ''"
+        @click="vdOwnText = vdOwnTextInTextArea;vdCompareSelf= false;"
+      >Comparar con texto propio</button>
+    </div>
+    <analyze
+      v-if="vdOwnText"
+      :vp-authors="[vdOwnTextAnalysis]"
     >
     </analyze>
   </div>

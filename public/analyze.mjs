@@ -7,14 +7,8 @@ const analyzeComponent = {
   },
   data: function() {
     return {
-      vdCurrentAuthor: {
-        name: '',
-        text: '',
-        wordsPerSentence: 0,
-        longestSentenceLength: '',
-        longestSentence: '',
-      },
-      vdCurrentAuthorIndex: -1,
+      vdCurrentAuthor: (this.vpAuthors.length === 1) ? this.vpAuthors[0] : {},
+      vdCurrentAuthorIndex: (this.vpAuthors.length === 1) ? 0 : -1,
     };
   },
   methods: {
@@ -39,20 +33,26 @@ const analyzeComponent = {
     },
   },
   template: `
-<div style="margin: 0 auto auto; max-width: 50%;">
+<div style="margin: 0 auto auto; width: 50%; flex: 0 0 auto;">
   <div class="selector">
-    <button
-      type="button"
-      @click="mtdPrev"
-    >&lt;</button>
+    <div style="width: 100px;">
+      <button
+        v-show="this.vpAuthors.length > 1 && this.vdCurrentAuthorIndex > -1"
+        type="button"
+        @click="mtdPrev"
+      >&lt;</button>
+    </div>
     <div v-cloak>
       <h2>{{ ((vdCurrentAuthorIndex > -1) ? vdCurrentAuthor.name : 'Autor') }}</h2>
       <p>{{ ((vdCurrentAuthorIndex > -1) ? vdCurrentAuthor.period : '') }}</p>
     </div>
-    <button
-      type="button"
-      @click="mtdNext"
-    >&gt;</button>
+    <div style="width: 100px;">
+      <button
+        v-show="this.vpAuthors.length > 1 && this.vdCurrentAuthorIndex < this.vpAuthors.length - 1"
+        type="button"
+        @click="mtdNext"
+      >&gt;</button>
+    </div>
   </div>
 
   <div
@@ -71,22 +71,52 @@ const analyzeComponent = {
     </p>
     <p>
       Oración más larga: <strong>{{ vdCurrentAuthor.longestSentenceLength }}</strong> palabras:
-      <blockquote style="text-align: left;">
+      <blockquote style="text-align: left;height: 110px;overflow: auto">
         {{ vdCurrentAuthor.longestSentence }}
       </blockquote>
     </p>
-    <p v-if="false">
-      Oración más corta: <strong>{{ vdCurrentAuthor.shortestSentenceLength }}</strong> palabras:
+    <p>
+      Oraciones cortas:
       <blockquote style="text-align: left;">
-        {{ vdCurrentAuthor.shortestSentence }}
+        <div
+          v-for="(_eachSentence, _index) in vdCurrentAuthor.shortSentences"
+          :key="_index"
+        >
+          {{ _eachSentence }}
+        </div>
       </blockquote>
     </p>
+
+    <table style="font-size: 12px;border-collapse: collapse;">
+      <tr
+        v-for="(_eachRow, _index) in vdCurrentAuthor.sentencesWith"
+        :key="_index"
+        >
+        <td style="text-align: right;">
+          Oraciones con {{ _eachRow.numberOfWords }} palabras
+        </td>
+        <td style="text-align: left;padding-left: 16px;">
+          <span
+            v-for="_eachHowMany in _eachRow.numberOfSentences"
+            :key="_eachHowMany"
+            style="display: inline-block;width: 10px; height: 10px; background: #999;margin-left: 1px;margin-top: 4px;"
+          >
+          </span>
+        </td>
+      </tr>
+    </table>
+
     <p>
       Cantidad de puntos: <strong>{{ vdCurrentAuthor.howManyPeriods }}</strong>
     </p>
     <p>
       Cantidad de comas: <strong>{{ vdCurrentAuthor.howManyCommas }}</strong>
     </p>
+    <p>
+      Signos:
+    </p>
+    <pre style="font-size: 18px;text-align: left;">{{ vdCurrentAuthor.art }}
+    </pre>
   </div>
 </div>
 `,
